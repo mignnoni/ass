@@ -1,0 +1,71 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container {
+    width:100%;
+    max-width: 600px;
+    height:150px;
+
+}
+
+.foto {
+    width:27%;
+    max-width:163px;
+    height: 150px;
+    background-color:white;
+    float:left;
+}
+
+.dados {
+    height: 150px;
+    width: 43%;
+    max-width: 260px;
+    float:left;
+    padding-left:30px;
+    padding-top:15px;
+}
+
+.nome {
+    color:#2A375A;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size:23px;
+}
+
+.cargo {
+    color:#949BAC;
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+}
+
+.email {
+    margin-top:10px;
+    font-family: 'Open Sans', sans-serif;
+    color:#2A375A;
+    font-size:14px;
+}
+
+.telefone {
+    margin-top:5px;
+    font-family: 'Open Sans', sans-serif;
+    color:#2A375A;
+    font-size:14px;
+}
+
+.telefone a, .email a {
+    color:inherit;
+    text-decoration: none;
+}
+
+.telefone a:hover, .email a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 29%;
+    max-width: 176px;
+    float:left;
+    height: 150px;
+}
